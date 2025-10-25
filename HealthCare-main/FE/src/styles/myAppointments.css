@@ -1,0 +1,100 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2937;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    margin-bottom: 16px;
+    color: #1976d2;
+  }
+  
+  .appointment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .appointment-item {
+    border: 1px solid #eef2f7;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    background: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+  }
+  
+  .label {
+    font-weight: 600;
+    color: #334155;
+  }
+
+  /* Status Color Indicators */
+  .status-pending {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .status-confirmed {
+    background: #d1fae5;
+    color: #065f46;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .status-cancelled {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .status-completed {
+    background: #e0e7ff;
+    color: #3730a3;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .status-scheduled {
+    background: #dbeafe;
+    color: #1e40af;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .status-in-progress {
+    background: #fde68a;
+    color: #b45309;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  

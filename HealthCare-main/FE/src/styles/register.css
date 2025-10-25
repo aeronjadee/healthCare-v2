@@ -1,0 +1,32 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .message {
+    color: red;
+    margin-top: 10px;
+  }
+  
